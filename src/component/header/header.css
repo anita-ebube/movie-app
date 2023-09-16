@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
     color:white ;
+    padding: 1rem 2rem;
 }
 .logo{
     display: flex;
@@ -33,6 +34,7 @@
     width: 40%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
@@ -40,6 +42,10 @@
     background: transparent;
     outline: none;
     border: none;
+}
+.searchMovie input::placeholder{
+    color: white;
+
 }
 .signIn{
     display: flex;
@@ -56,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 4rem 2rem;
 }
 .rating{
     display: flex;
@@ -74,19 +80,16 @@
     padding-top: 1rem;
     
 }
-.review{
-    margin-top: 2rem;
-    margin-left: 5rem;
-}
+
 .reviewtext{
     width: 20rem;
    padding-top: 1rem;
    padding-bottom: 1rem;
 }
-.review p{
+.descriptionbox p{
     color: white;
 }
-.review h2{
+.descriptionbox h2{
     color: white;
     font-size: 48px;
     font-weight: 700;
@@ -95,7 +98,7 @@
     padding-top: 2rem;
 }
 .button{
-    margin-bottom: 10rem;
+    padding-bottom: 2rem;
 }
 .pagination {
     width: 10%;
@@ -104,7 +107,7 @@
     flex-direction: column;
     align-items: flex-end;
     font-size: 0.9rem;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
 }
 .pagination p{
     color: #a19999;
@@ -118,10 +121,150 @@
     display: flex;
     align-items: center;
 }
-
-.third div{
-
-}
 .third p{
     color: white;
+}
+@media only screen and (max-width:900px){
+    .logo img{
+        padding-right: 0.5rem;
+        width: 50%;
+    }
+    .logo h2{
+        font-size: 15px;
+        color: white;
+    }
+    .signIn{
+        display: flex;
+        justify-items: space-between;
+        align-items: center;
+    }
+    .signIn img{
+        padding-left: 0.5rem;
+        width: 30%;
+    }
+    .signIn h2{
+        color: white;
+        font-size: 15px;
+    }
+}
+/* @media only screen and (max-width:600px){
+    .logo img{
+        padding-right: 0.5rem;
+        width: 50%;
+    }
+    .logo h2{
+        font-size: 15px;
+        color: white;
+    }
+    .signIn{
+        display: flex;
+        justify-items: space-between;
+        align-items: center;
+    }
+    .signIn img{
+        padding-left: 0.5rem;
+        width: 30%;
+    }
+    .signIn h2{
+        color: white;
+        font-size: 15px;
+    }
+    .searchMovie input::placeholder{
+        color: white;
+        font-size: 13px;
+    }
+    .descriptionbox h2{
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: left;
+        padding-top: 2rem;
+    }
+} */
+@media only screen and (max-width:500px){
+    .logo img{
+        padding-right: 0.3rem;
+        width: 30%;
+    }
+    .logo h2{
+        font-size: 15px;
+        color: white;
+    }
+    .signIn{
+        display: flex;
+        justify-items: space-between;
+        align-items: center;
+    }
+    .signIn img{
+        padding-left: 0.3rem;
+        width: 30%;
+    }
+    .signIn h2{
+        color: white;
+        font-size: 14px;
+    }
+    .searchMovie input::placeholder{
+        color: white;
+        font-size: 13px;
+    }
+    .descriptionbox h2{
+        color: white;
+        font-size: 30px;
+    }
+    .reviewtext{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:400px){
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        width: 20%;
+    }
+    .logo h2{
+        font-size: 10px;
+        color: white;
+    }
+    .signIn{
+        display: flex;
+        justify-items: space-between;
+        align-items: center;
+    }
+    .signIn img{
+        width: 20%;
+    }
+    .signIn h2{
+        color: white;
+        font-size: 10px;
+        padding-left: 2rem;
+    }
+    .searchMovie input::placeholder{
+        color: white;
+        font-size: 9px;
+    }
+    .descriptionbox h2{
+        color: white;
+        font-size: 30px;
+    }
+    /* .rating{
+        width: 50%;
+    } */
+    .reviewtext{
+        width: 100%;
+        font-size: 13px;
+    }
+    .pagination {
+        display: none;
+    }
+    .navText{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
 }

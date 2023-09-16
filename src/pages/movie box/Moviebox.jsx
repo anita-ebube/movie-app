@@ -49,19 +49,19 @@ export default function Moviebox() {
           <h2>MovieBox</h2>
         </div>
         <div className="menulink">
-          <img src="./assets/icons/Home.png" alt="" />
+          <img src="assets/icons/Home.png" alt="" />
           <p>Home</p>
         </div>
         <div className="menulink">
-          <img src="./assets/icons/MovieProjector.png" alt="" />
+          <img src="assets/icons/MovieProjector.png" alt="" />
           <p>Movies</p>
         </div>
         <div className="menulink">
-          <img src="./assets/icons/TVShow.png" alt="" />
+          <img src="assets/icons/TVShow.png" alt="" />
           <p>Tv Series</p>
         </div>
         <div className="menulink">
-          <img src="./assets/icons/Calendar.png" alt="" />
+          <img src="assets/icons/Calendar.png" alt="" />
           <p>Upcoming</p>
         </div>
         <div className="textbox">
@@ -72,13 +72,13 @@ export default function Moviebox() {
           <p className="btn">Start playing</p>
         </div>
         <div className="menulink">
-          <img src="./assets/icons/Logout.png" alt="" />
+          <img src="assets/icons/Logout.png" alt="" />
           <p>Logout</p>
         </div>
       </div>
       <div className="triller">
         <div className="shortclip">
-          <img src={`${imgUrl}${poster_path}`} alt="" />
+          {/* <img src={`${imgUrl}${poster_path}`} alt="" /> */}
         </div>
         <div className="overview">
           <div className="cast">
