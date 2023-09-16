@@ -1,0 +1,110 @@
+.sidebar{
+    display: flex;
+    /* margin: 1rem; */
+}
+.menu{
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top-right-radius:4rem;
+    border-bottom-right-radius:4rem;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.logos img{
+    width: 40px;
+}
+.logos h2{
+    padding-left: 1rem;
+    color: rgba(51, 51, 51, 1);
+}
+
+.menulink{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: left;
+}
+.menulink p{
+    padding-left: 1rem;
+    font-size:20px;
+}
+.menulink:hover{
+    border-right:2px rgba(190, 18, 60, 1); ;
+    background: rgba(190, 18, 60, 0.1);
+
+}
+.menulink:hover p{
+    color: rgba(190, 18, 60, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+.textbox{
+    margin: 2rem;
+    background: rgba(190, 18, 60, 0.1);
+    border: 1px solid rgba(190, 18, 60, 0.7);
+    border-radius:1rem;
+}
+.textbox p{
+    margin: 1rem;
+    font-size: 15px;
+}
+.textbox span{
+    font-size: 12px;
+    padding-left: 1rem;
+}
+.textbox .btn{
+    background: rgba(190, 18, 60, 0.1);
+    color: rgba(190, 18, 60, 0.7);
+    padding: 0.5rem;
+    font-size: 12px;
+    text-align: center;
+}
+.triller{
+    padding: 2rem;
+}
+.triller img{
+    width: 100%;
+}
+.overview{
+    display: flex;
+
+}
+.cast{
+    width: 60%;
+}
+.cast p{
+    font-size: 20px;
+    padding: 1rem;
+}
+.cast span{
+    color:rgba(190, 18, 60, 0.7) ;
+}
+.cast img{
+    width: 70%;
+}
+.details_rating img{
+    display: block;
+    padding-left: 7rem;
+    width: 300px;
+    padding-bottom: 2rem;
+}
+.shortclip{
+    height: 410px;
+    position: relative;
+}
+.shortclip img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+   
+}

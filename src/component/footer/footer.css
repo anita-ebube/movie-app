@@ -1,0 +1,38 @@
+.footer{
+    background-color: white;
+}
+.social{
+    margin-top: 10rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2%;
+}
+.social span{
+    display: block;
+}
+.links{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2%;
+    padding-top: 1rem;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+.production{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 1rem;
+}
+.production p{
+    color: rgba(107, 114, 128, 1);
+    ;
+}
