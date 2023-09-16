@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./Moviebox.css";
+import "./moviebox.css";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 
