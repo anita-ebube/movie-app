@@ -6,26 +6,27 @@
 }
 .navHeader{
     background-image:url(./assets/img/johnwick.png);
-    padding:0 3rem;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 .navHeading{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 5rem;
     color:white ;
 }
 .logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
     color:white ;
 }
 .logo img{
     padding-right: 1rem;
+}
+.logo h2{
+    color: white;
 }
 .searchMovie{
     border: 2px solid white;
@@ -48,28 +49,50 @@
 .signIn img{
     padding-left: 1rem;
 }
+.signIn h2{
+    color: white;
+}
 .navText{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 .rating{
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
+}
+.rating p{
+    color: white;
+}
+.tomatoe p{
+    color: white;
 }
 .imdb,.tomatoe{
     display: flex;
     justify-content:space-between ;
     padding-top: 1rem;
-   /* padding-bottom: 1rem; */
     
+}
+.review{
+    margin-top: 2rem;
+    margin-left: 5rem;
 }
 .reviewtext{
     width: 20rem;
    padding-top: 1rem;
    padding-bottom: 1rem;
+}
+.review p{
+    color: white;
+}
+.review h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    padding-top: 2rem;
 }
 .button{
     margin-bottom: 10rem;
@@ -81,9 +104,12 @@
     flex-direction: column;
     align-items: flex-end;
     font-size: 0.9rem;
+    padding-right: 2rem;
+}
+.pagination p{
+    color: #a19999;
 }
 .third hr {
- 
     width: 40%;
 }
 .third{
@@ -91,4 +117,11 @@
     justify-content: flex-end;
     display: flex;
     align-items: center;
+}
+
+.third div{
+
+}
+.third p{
+    color: white;
 }

@@ -37,14 +37,14 @@ export default function header() {
                 </div>
             </div>
             <div className="pagination">
-                <div>1</div>
-                <div>2</div>
+                <div><p>1</p></div>
+                <div><p>2</p></div>
                 <div className="third">
                     <hr />
                     <p>3</p>
                 </div>
-                <div>4</div>
-                <div>5</div>
+                <div><p>4</p></div>
+                <div><p>5</p></div>
             </div>
         </div>
     </div>
